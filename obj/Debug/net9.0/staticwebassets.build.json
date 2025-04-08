@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "auEfKfrFZXqv4AHMHZAUAedhCD6cVUrHCHmCWbp1YSI=",
+  "Source": "SqlWebApp",
+  "BasePath": "_content/SqlWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
