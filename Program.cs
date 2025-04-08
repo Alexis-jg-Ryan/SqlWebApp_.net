@@ -25,7 +25,7 @@ using (var scope = app.Services.CreateScope())
 
 // User API endpoints
 app.MapGet("/api/users", async (AppDbContext db) =>
-    await db.Users.ToListAsync());
+    { await db.Users.ToListAsync(); });
 
 app.MapPost("/api/users", async (AppDbContext db, User user) =>
 {
