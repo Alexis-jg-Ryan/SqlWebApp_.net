@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5NBTsnpZ2Uvv3NZN4DXgr/+g1GnCiA7SGnsuJc+sNSw=",
+  "Hash": "CbJOvM5D/ufvl0EwMI43nnCmlhTVH6aSPp1cMmq4QdY=",
   "Source": "SqlWebApp",
   "BasePath": "_content/SqlWebApp",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\9spabf1dzm-9gpa58xbcj.gz",
+      "Identity": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\9spabf1dzm-p7c5xqms3z.gz",
       "SourceId": "SqlWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SqlWebApp",
-      "RelativePath": "index#[.{fingerprint=9gpa58xbcj}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=p7c5xqms3z}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "C:\\Users\\alexp\\.net\\SqlWebApp\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5d3r1jqi8n",
-      "Integrity": "yTYTuAmwwFElKGZDTa1J0eRkOzxj9o7WmG/0bavMYOg=",
+      "Fingerprint": "actc90jubd",
+      "Integrity": "inioX7H/BUptWYOXPgQ/HhndcvMxQldmlQ5LNvGmedk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\alexp\\.net\\SqlWebApp\\wwwroot\\index.html"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9gpa58xbcj",
-      "Integrity": "p0vdlJqIv0Ci7WVfGaZR1LHA5ZGXuEBAkIFVuP5jgW0=",
+      "Fingerprint": "p7c5xqms3z",
+      "Integrity": "FZb/S1sEhxRgFtx36s5HHTtLXzWFsf3+XSRSVLUYu9w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -61,13 +61,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "index.9gpa58xbcj.html",
-      "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\9spabf1dzm-9gpa58xbcj.gz",
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\9spabf1dzm-p7c5xqms3z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000706713781"
+          "Quality": "0.000634920635"
         }
       ],
       "ResponseHeaders": [
@@ -77,19 +77,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1414"
+          "Value": "1574"
         },
         {
           "Name": "ETag",
-          "Value": "\"yTYTuAmwwFElKGZDTa1J0eRkOzxj9o7WmG/0bavMYOg=\""
+          "Value": "\"inioX7H/BUptWYOXPgQ/HhndcvMxQldmlQ5LNvGmedk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 22:52:44 GMT"
+          "Value": "Wed, 09 Apr 2025 01:37:14 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -105,26 +105,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"p0vdlJqIv0Ci7WVfGaZR1LHA5ZGXuEBAkIFVuP5jgW0=\""
+          "Value": "W/\"FZb/S1sEhxRgFtx36s5HHTtLXzWFsf3+XSRSVLUYu9w=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "9gpa58xbcj"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-p0vdlJqIv0Ci7WVfGaZR1LHA5ZGXuEBAkIFVuP5jgW0="
+          "Value": "sha256-FZb/S1sEhxRgFtx36s5HHTtLXzWFsf3+XSRSVLUYu9w="
         }
       ]
     },
     {
-      "Route": "index.9gpa58xbcj.html",
+      "Route": "index.html",
       "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -134,7 +126,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5133"
+          "Value": "5470"
         },
         {
           "Name": "Content-Type",
@@ -142,11 +134,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"p0vdlJqIv0Ci7WVfGaZR1LHA5ZGXuEBAkIFVuP5jgW0=\""
+          "Value": "\"FZb/S1sEhxRgFtx36s5HHTtLXzWFsf3+XSRSVLUYu9w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 22:52:44 GMT"
+          "Value": "Wed, 09 Apr 2025 01:37:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FZb/S1sEhxRgFtx36s5HHTtLXzWFsf3+XSRSVLUYu9w="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\9spabf1dzm-p7c5xqms3z.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"inioX7H/BUptWYOXPgQ/HhndcvMxQldmlQ5LNvGmedk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 01:37:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-inioX7H/BUptWYOXPgQ/HhndcvMxQldmlQ5LNvGmedk="
+        }
+      ]
+    },
+    {
+      "Route": "index.p7c5xqms3z.html",
+      "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\9spabf1dzm-p7c5xqms3z.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000634920635"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1574"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"inioX7H/BUptWYOXPgQ/HhndcvMxQldmlQ5LNvGmedk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 01:37:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FZb/S1sEhxRgFtx36s5HHTtLXzWFsf3+XSRSVLUYu9w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p7c5xqms3z"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FZb/S1sEhxRgFtx36s5HHTtLXzWFsf3+XSRSVLUYu9w="
+        }
+      ]
+    },
+    {
+      "Route": "index.p7c5xqms3z.html",
+      "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FZb/S1sEhxRgFtx36s5HHTtLXzWFsf3+XSRSVLUYu9w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 01:37:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -156,7 +293,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9gpa58xbcj"
+          "Value": "p7c5xqms3z"
         },
         {
           "Name": "label",
@@ -164,13 +301,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-p0vdlJqIv0Ci7WVfGaZR1LHA5ZGXuEBAkIFVuP5jgW0="
+          "Value": "sha256-FZb/S1sEhxRgFtx36s5HHTtLXzWFsf3+XSRSVLUYu9w="
         }
       ]
     },
     {
-      "Route": "index.9gpa58xbcj.html.gz",
-      "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\9spabf1dzm-9gpa58xbcj.gz",
+      "Route": "index.p7c5xqms3z.html.gz",
+      "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\9spabf1dzm-p7c5xqms3z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -179,7 +316,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1414"
+          "Value": "1574"
         },
         {
           "Name": "Content-Type",
@@ -187,11 +324,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yTYTuAmwwFElKGZDTa1J0eRkOzxj9o7WmG/0bavMYOg=\""
+          "Value": "\"inioX7H/BUptWYOXPgQ/HhndcvMxQldmlQ5LNvGmedk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 22:52:44 GMT"
+          "Value": "Wed, 09 Apr 2025 01:37:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -209,7 +346,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9gpa58xbcj"
+          "Value": "p7c5xqms3z"
         },
         {
           "Name": "label",
@@ -217,144 +354,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yTYTuAmwwFElKGZDTa1J0eRkOzxj9o7WmG/0bavMYOg="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\9spabf1dzm-9gpa58xbcj.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000706713781"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1414"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yTYTuAmwwFElKGZDTa1J0eRkOzxj9o7WmG/0bavMYOg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 22:52:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"p0vdlJqIv0Ci7WVfGaZR1LHA5ZGXuEBAkIFVuP5jgW0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-p0vdlJqIv0Ci7WVfGaZR1LHA5ZGXuEBAkIFVuP5jgW0="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5133"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"p0vdlJqIv0Ci7WVfGaZR1LHA5ZGXuEBAkIFVuP5jgW0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 22:52:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-p0vdlJqIv0Ci7WVfGaZR1LHA5ZGXuEBAkIFVuP5jgW0="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\alexp\\.net\\SqlWebApp\\obj\\Debug\\net9.0\\compressed\\9spabf1dzm-9gpa58xbcj.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1414"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yTYTuAmwwFElKGZDTa1J0eRkOzxj9o7WmG/0bavMYOg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 22:52:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yTYTuAmwwFElKGZDTa1J0eRkOzxj9o7WmG/0bavMYOg="
+          "Value": "sha256-inioX7H/BUptWYOXPgQ/HhndcvMxQldmlQ5LNvGmedk="
         }
       ]
     }

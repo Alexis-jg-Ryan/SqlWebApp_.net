@@ -22,7 +22,10 @@ using (var scope = app.Services.CreateScope())
 
 // user API endpoints
 app.MapGet("/api/users", async (AppDbContext db) =>
-    { await db.Users.ToListAsync(); });
+{
+    var users = await db.Users.ToListAsync();
+    return Results.Json(users); // Explicitly return as JSON
+});
 
 app.MapPost("/api/users", async (AppDbContext db, User user) =>
 {

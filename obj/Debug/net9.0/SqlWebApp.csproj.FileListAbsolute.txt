@@ -161,4 +161,5 @@ C:\Users\alexp\.net\SqlWebApp\obj\Debug\net9.0\SqlWebApp.pdb
 C:\Users\alexp\.net\SqlWebApp\obj\Debug\net9.0\SqlWebApp.genruntimeconfig.cache
 C:\Users\alexp\.net\SqlWebApp\obj\Debug\net9.0\ref\SqlWebApp.dll
 C:\Users\alexp\.net\SqlWebApp\bin\Debug\net9.0\SqlWebApp.staticwebassets.runtime.json
-C:\Users\alexp\.net\SqlWebApp\obj\Debug\net9.0\compressed\9spabf1dzm-9gpa58xbcj.gz
+C:\Users\alexp\.net\SqlWebApp\obj\Debug\net9.0\SqlWebApp.sourcelink.json
+C:\Users\alexp\.net\SqlWebApp\obj\Debug\net9.0\compressed\9spabf1dzm-p7c5xqms3z.gz

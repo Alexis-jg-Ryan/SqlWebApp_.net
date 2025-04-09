@@ -51,28 +51,41 @@
         document.addEventListener('DOMContentLoaded', loadUsers);
         
         async function loadUsers() {
-            try {
-                const response = await fetch('/api/users');
-                if (!response.ok) throw new Error('Failed to load users');
-                const users = await response.json();
-                const tableBody = document.querySelector('#usersTable tbody');
-                tableBody.innerHTML = '';
-                
-                users.forEach(user => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                        <td>${user.id}</td>
-                        <td>${user.name}</td>
-                        <td>${user.email}</td>
-                        <td><button onclick="deleteUser(${user.id})">Delete</button></td>
-                    `;
-                    tableBody.appendChild(row);
-                });
-            } catch (error) {
-                console.error('Error loading users:', error);
-                alert('Error loading users. Check console for details.');
+        try {
+            const response = await fetch('/api/users');
+            
+            // First check if the response is OK (status 200-299)
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
+            
+            // Check if response has content
+            const text = await response.text();
+            if (!text.trim()) {
+                throw new Error('Empty response from server');
+            }
+            
+            // Try to parse JSON only if there's content
+            const users = JSON.parse(text);
+            
+            const tableBody = document.querySelector('#usersTable tbody');
+            tableBody.innerHTML = '';
+            
+            users.forEach(user => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${user.id}</td>
+                    <td>${user.name}</td>
+                    <td>${user.email}</td>
+                    <td><button onclick="deleteUser(${user.id})">Delete</button></td>
+                `;
+                tableBody.appendChild(row);
+            });
+        } catch (error) {
+            console.error('Error loading users:', error);
+            alert('Error loading users: ' + error.message);
         }
+    }
         
         async function addUser() {
             const name = document.getElementById('nameInput').value;

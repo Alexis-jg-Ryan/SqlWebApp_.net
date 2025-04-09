@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SqlWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e1d297cdb305dcbd899edb47ae874f2dc4be3d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bcbcb5f9979c4d64b4c449f4ae807eebf5c144d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SqlWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SqlWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
